@@ -3,6 +3,7 @@
 <head>
  <meta charset="UTF-8">
  <title>akifumi.camera</title>
+ <link rel="stylesheet" type="text/css" href="ugly.css">
 </head>
 <link rel="stylesheet" type="text/css" media="all" href="http://labs.artandmobile.com/jspaint/styles.css" />
 <script type="text/javascript"> 
@@ -507,32 +508,6 @@ function setPixel(srcCanvas, x, y, R, G, B, A, canvasW, canvasH){
       return "url("+c.toDataURL()+")";
     }
 </script>
-
-<style>
-.js-slider{
-  position:relative;
-  width:256px;
-  height:20px;
-}
-.js-slider div{
-  background:#ddd;
-  height:3px;
-  border:1px inset #aaa;
-  position:relative;
-  top:12px;
-  font-size:0px;
-}
-.js-slider input{
-  position:absolute;
-  width:15px;
-  height:20px;
-  display:block;
-}
-video {
- position:absolute;
- visibility:hidden;
-}
-</style>
 
 <body bgcolor="#df4000" link="#0000ff" vlink="#800080" alink="#ff0000" onLoad="init()"> 
   <h1>akifumi.camera</h1>
